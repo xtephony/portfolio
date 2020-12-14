@@ -1,0 +1,47 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
+h2 {
+    color: #3046C5;
+}
+
+header h2 {
+    color: #cec8ff;
+}
+
+footer {
+    background-image: linear-gradient(#cec8ff, white);
+    padding: 20px 0;
+}
+
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+#video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
+}
+
+.jumbotron {
+position: relative;
+overflow: hidden;
+}
+
+.jumbotron .container {
+position: relative;
+z-index: 1;
+}

@@ -1,0 +1,33 @@
+#video-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.jumbotron {
+position: relative;
+overflow: visible;
+}
+
+.jumbotron .container {
+position: relative;
+z-index: 1;
+}
+
+.jumbotron-heading {
+color: azure;
+margin-top: 300px;
+}
+
+body {
+    background-color: #eec61441;
+}
