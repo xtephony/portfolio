@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Template Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+  
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" /> 
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Kennedy Phelps</title>
+    </head>
+    
+    <body>
+    <!--Page Container-->
+    <div class="container-fluid">
+       
+        <!--Header Row-->
+        <div class="row">
+            <div class="heading">
+                <h1 style="padding-left:150px;">My <span style="color: #CE862B;"> Performances</span></h1>
+            </div><!--end header-->
+        </div><!--end header row-->
+            
+                <!--Content Row-->
+            <div class="row" id="content">
+                
+                <!--left column-->
+                <div class="col-sm-2" id="leftCol">
+
+                </div><!--left row-->
+            
+                <!--middle column-->
+                <div class="col-sm-8" id="midCol">
+                    
+                    <!--Portfolio Accordian-->
+                    <div class="col-sm-6">
+                        <div id="accordion">
+                                <!--Video 1-->   
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                                        Solo Performance 
+                                    </a>
+                                </div><!--end card 1 header-->
+                                
+                                    <!--begin card 1 body and title-->
+                                    <div id="collapseOne" class="collapse show" data-parent="#accordion" >
+                                        <div class="card-body" style="width: 800px; background-color: white;">
+                                            <div class="card-title">
+                                                <h3>The Secret Society Of Twisted Storytellers - "SOUL FOOD!"</h3>
+                                            </div>
+                                                    
+                                            <!--Card 1 Video-->
+                                            <div class="row">
+                                                <div class="col">
+                                                    <video width="780" height="400" controls>
+                                                        <source src="video/kennedy_test.mp4" type="video/mp4">
+                                                    </video>
+                                                </div> <!--end card 1 video col-->
+                                            </div> <!--end video 1 row-->
+                                        </div> <!--end card 1 body-->
+                            </div> <!--end card 1-->
+                            
+                            <!--Begin Card 2-->
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                                    Solo Performance 
+                                    </a>
+                                </div> <!--end card 2 header-->
+                                        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                            <div class="card-body" style="width: 800px; background-color: white;">
+                                                <div class="card-title">
+                                                    <h3>Junior Jury Solo</h3>
+                                                </div> <!--end card title-->
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <iframe width="780" height="400" src="https://www.youtube.com/embed/Vz046qKpb1w" 
+                                                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                                                            gyroscope; picture-in-picture" allowfullscreen>
+                                                            </iframe>
+                                                        </div> <!--end video 2 col-->
+                                                    </div> <!--end video 2 row-->
+                                            </div><!--end card 2 body-->
+                                        </div><!--end card 2-->
+                            </div><!--end card 2-->
+                        
+                            <!--Begin Card 2-->
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                                    Tap Solo
+                                    </a>
+                                </div> <!--end card 3 header-->
+                                        <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                            <div class="card-body" style="width: 800px; background-color: white;">
+                                                <div class="card-title">
+                                                    <h3>Teen Camp Featured Dance Solo Project</h3>
+                                                </div> <!--end card title-->
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <iframe width="780" height="400" src="https://www.youtube.com/embed/67P1zUblJks" 
+                                                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                                                            gyroscope; picture-in-picture" allowfullscreen>
+                                                        </iframe>
+                                                        </div> <!--end video 3 col-->
+                                                    </div> <!--end video 3 row-->
+                                            </div><!--end card 3 body-->
+                                        </div><!--end card 3-->
+                            </div><!--end card 3-->
+                        
+                        </div>
+                    </div>
+                </div><!--middle col-->
+            </div> <!--end content row-->
+           
+            
+                 <!--Navigation Column-->
+                <div class="col-sm-2" id="nav">
+                    <ul class="nav navbar-nav navbar-right">
+                        <div class="container-fluid">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                <i class="fa fa-home fa-2x circle-icon"></i>                          
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-user fa-2x circle-icon"></i>                        
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="portfolio.html">
+                                <i class="fa fa-briefcase fa-2x circle-icon"></i>                        
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-envelope-open fa-2x circle-icon"></i>                        
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-comments fa-2x circle-icon"></i>                        
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix visible-lg"></div>
+                </div>
+            </div>
+     
+    </div> <!--end container-->
+</body>
+
+    <!--jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</html>

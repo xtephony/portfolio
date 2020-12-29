@@ -57,68 +57,68 @@
 </head>
 
    
-</head>
-
 <body>
-    <!-- Container style for home page for no scrolling-->
+    <!-- Page Container-->
     
     <div class="container-fluid">        
-        <!--Beginning Row-->
+        <!--Begin content Row-->
         <div class="row">
 
-                <!--Image Section-->
-            <div class="col-sm-4" style="position: relative; left: 0; top: 0;">
+            <!--Image Column-->
+            <div class="col-sm-4">
                 <img src="images/img_layer.png" class="bottom"/>
-                <img src="images/hero.png" class="top" style="border-radius: 50px; margin-top: 50px;"/>
-            </div>
+                <img src="images/hero.png" class="top" style="border-radius: 50px;"/>
+            </div> <!--end image col-->
 
-                <!--Text Section-->
+                <!--Text Column-->
             <div class="col-sm-6" id="header">
-                <h3 style="margin-top: 250px;">Hi There!</h3>
+                <h3 style="margin-top: 250px; padding-bottom: 20px;">Hi There!</h3>
                     <h1>I'm <span style="color: #CE862B;"> Kennedy Phelps</span></h1>
-                        <p>I’m a multi-talented dancer. I excel in ballet, tap, and modern dance.  
+                        <p id="front">I’m a multi-talented dancer. I excel in ballet, tap, and modern dance.  
                            I am passionate about sharing my expertise with children.
                         </p>
 
-                <!--Button-->
-                <a href="#" class="btn button btn-lg" role="button">More about me</a>
-                
-            </div>
-
-                <!--Navigation Section-->
-            <div class="col-sm-2" id="nav">
-                <ul class="nav flex-column">
-                    <li class="nav-item active">
-                        <i class="fa fa-home fa-2x circle-icon"></i> 
-                        <a href="#"> 
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <i class="fa fa-user fa-2x circle-icon"></i>
-                        <a href="#">
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <i class="fa fa-briefcase fa-2x circle-icon"></i>
-                        <a href="#">
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <i class="fa fa-envelope-open fa-2x circle-icon"></i>
-                        <a href="#">
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <i class="fa fa-comments fa-2x circle-icon"></i>
-                        <a href="#">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="clearfix visible-lg"></div>
-            </div>
-        </div>
-    </div>
+                    <!--Button-->
+                    <a href="#" class="btn button btn-lg" role="button" style="color: whitesmoke;">More about me</a>
+            </div> <!--end text col-->
+          
+            
+                    <!--Navigation Column-->
+                <div class="col-sm-2 home" id="nav">
+                    <ul class="nav navbar-nav navbar-right">
+                        <div class="container-fluid">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">
+                                        <i class="fa fa-home fa-2x circle-icon"></i>                          
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa fa-user fa-2x circle-icon"></i>                        
+                                    </a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="portfolio.html">
+                                        <i class="fa fa-briefcase fa-2x circle-icon"></i>                        
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa fa-envelope-open fa-2x circle-icon"></i>                        
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa fa-comments fa-2x circle-icon"></i>                        
+                                    </a>
+                                </li>
+                            </div> <!--end fluid-container-->
+                        </ul><!--end unordered list-->
+                            <div class="clearfix visible-lg"></div>
+                    </div> <!--end nav col-->
+            </div><!--end content row-->   
+    </div> <!--end container-->
+    
 </body>
 
  <!--jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins-->
